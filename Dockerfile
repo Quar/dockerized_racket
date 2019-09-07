@@ -7,5 +7,3 @@ WORKDIR /tmp
 RUN sh racket-7.4-x86_64-linux.sh --unix-style --create-dir --dest /usr/
 
 WORKDIR /code
-
-ENTRYPOINT ["/bin/bash", "-l", "-c"]
